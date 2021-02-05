@@ -1,5 +1,5 @@
 # Landing Page
-This is first my landing page project it's free to use, made with [Bootstrap V5](https://getbootstrap.com)
+This is first my landing page project it's free to use, made with [Bootstrap V5](https://getbootstrap.com), [Animate.css](https://animate.style/), [WOW.js](https://www.delac.io/wow)
 
 ## Download and Installation
 
