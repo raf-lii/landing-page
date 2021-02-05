@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Merriweather+Sans:wght@600&family=Londrina+Solid&family=Slabo+27px&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    color: white;
+    background-image: url(image/background-vector.jpg);
+}
+
+ #main a,a {
+    color: white;
+}
+
+nav {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+}
+
+.name {
+    margin-top: 10px;
+    font-family: 'Londrina Solid', cursive;
+
+}
+
+.slog {
+    margin-top:-10px;
+    font-size: 14px;
+    font-family: 'Slabo 27px', serif;
+}
+
+.nav-link {
+    margin-right: 50px;
+}
+
+.img-fluid {
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index:1;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.left-content {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 60px;
+}
+
+.counter {
+    margin-left: 16%;
+    border-radius: 12px;
+    font-size: 15px;
+    position: absolute;
+    background-color: #147ae0;
+    width: 50%;
+    height: 90px;
+    z-index: 2;
+    margin-top: -45px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.desc-panel {
+    font-family: 'Londrina Solid', cursive;
+    color: black;
+}
+
+.why-us {
+    margin-top: 100px;
+    color:rgb(43, 42, 42);
+}
+
+.why {
+    font-size:23px;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.descript {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 10px;
+}
+
+.fitur {
+    margin-top: 50px;
+    padding-top: 30px;  
+}
+
+.unggulan {
+    margin-top: 13px;
+    font-size: 15px;
+    font-family: 'Slabo 27px', serif;
+
+}
+
+h3.unggulan {
+    font-weight:bold;
+}
+
+.contact {
+    height: 400px;
+    margin-top: 50px;
+    background-color: #203053;
+    color: white;
+}
+
+.cont-title{
+    margin-top: 30px !important;
+}
+
+.form {
+    font-family: 'Londrina Solid', cursive;
+    margin-top: 30px;
+}
+
+.found-us {
+    margin-top: 20px;
+    font-size: 20px;
+    display: block !important;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+@media (max-width: 575.98px) {
+
+    .navbar-nav {
+        margin-top: 20px;
+    }
+
+    .left-content {
+        margin-top: 10px;
+        margin-bottom: 95px;
+        font-size: 20px;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+
+    .float-end {
+        display: none;
+    }
+
+    .row {
+        margin-top: 20px;
+    }
+
+    .found-us {
+        margin-top: 20px;
+        font-size: 15px;
+        display: block !important;
+    }
+
+    .counter {
+        margin-left: 9%;
+        font-family: 'Bebas Neue', cursive;
+        border-radius: 12px;
+        font-size: 15px;
+        position: absolute;
+        background-color: #147ae0;
+        width: 80%;
+        height: 110px;
+        z-index: 2;
+        margin-top: -50px;
+        box-shadow: 5px 5px 5px rgba(197, 134, 134, 0.6);
+    
+    }
+    .footer {
+        margin-top: -10px;
+    }
+    
+}
