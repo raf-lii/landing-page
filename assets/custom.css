@@ -24,13 +24,16 @@ nav {
 .name {
     margin-top: 10px;
     font-family: 'Londrina Solid', cursive;
-
+    animation-name: anim_slog;
+	animation-duration: 2s;    
 }
 
 .slog {
     margin-top:-10px;
     font-size: 14px;
     font-family: 'Slabo 27px', serif;
+    animation-name: anim_slog;
+	animation-duration: 2s;     
 }
 
 .nav-link {
