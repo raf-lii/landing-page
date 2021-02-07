@@ -140,6 +140,38 @@ h3.unggulan {
     margin-top: 30px;
 }
 
+/* Order page */
+
+.main-order {
+    background-image: url('https://img.freepik.com/free-vector/abstract-geometric-shapes-background_23-2148370309.jpg?size=626&ext=jpg');
+}
+
+#order, a {
+    color:white !important;
+    background-color:   #203053;
+}
+
+.order-content {
+    color: rgb(104, 104, 104);
+    background-color: rgb(133, 197, 235);
+    border-radius: 50px;
+    margin-top: 100px;
+    font-family: 'Londrina Solid', cursive;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 5px 5px rgba(68, 68, 68, 0.6);
+    width: 500px;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form-content {
+    margin-top: 95px;
+}
+
+.order-footer {
+    margin-top: 100px;
+}
 @media (max-width: 575.98px) {
 
     .navbar-nav {
